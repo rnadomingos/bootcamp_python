@@ -19,4 +19,4 @@ perc_bonus = float(input("Qual é o percentual de bonus recebido? "))
 bonus = CONST_BONUS + vlr_salario * perc_bonus
 
 # 5. O programa deve imprimir uma mensagem
-print(f"Olá {nome}, o seu valor bônus foi de {bonus}") 
+print(f"Olá {nome}, o seu valor bônus foi de {bonus}")
