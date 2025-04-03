@@ -26,13 +26,22 @@
 
 #   - Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 
-valor1 = int(input("Informe um número: "))
-valor2 = int(input("Informe outro número: "))
+# valor1 = int(input("Informe um número: "))
+# valor2 = int(input("Informe outro número: "))
 
-divisao_valor = valor1 / valor2
-print(f"A divisao do valor 1 pelo valor 2 é igual a {divisao_valor}.")
+# divisao_valor = valor1 / valor2
+# print(f"A divisao do valor 1 pelo valor 2 é igual a {divisao_valor}.")
 
 #   - Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+
+QUADRADO = 2
+valor = int(input("Informe um valor: "))
+
+quadrado_resultado = valor ** QUADRADO
+
+print(f"O quadrado de {valor} é {quadrado_resultado}.")
+
+
 # ## Números de Ponto Flutuante (float)
 #   - Escreva um programa que receba dois números flutuantes e realize sua adição.
 #   - Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
