@@ -18,13 +18,20 @@
 
 #   - Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
 
+# valor1 = int(input("Informe um número: "))
+# valor2 = int(input("Informe outro número: "))
+
+# multiplicacao_valor = valor1 * valor2
+# print(f"Os valores multiplicados é igual a {multiplicacao_valor}.")
+
+#   - Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+
 valor1 = int(input("Informe um número: "))
 valor2 = int(input("Informe outro número: "))
 
-multiplicacao_valor = valor1 * valor2
-print(f"Os valores multiplicados é igual a {multiplicacao_valor}.")
+divisao_valor = valor1 / valor2
+print(f"A divisao do valor 1 pelo valor 2 é igual a {divisao_valor}.")
 
-#   - Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
 #   - Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 # ## Números de Ponto Flutuante (float)
 #   - Escreva um programa que receba dois números flutuantes e realize sua adição.
