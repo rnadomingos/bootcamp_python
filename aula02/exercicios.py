@@ -34,16 +34,24 @@
 
 #   - Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
-QUADRADO = 2
-valor = int(input("Informe um valor: "))
+# QUADRADO = 2
+# valor = int(input("Informe um valor: "))
 
-quadrado_resultado = valor ** QUADRADO
+# quadrado_resultado = valor ** QUADRADO
 
-print(f"O quadrado de {valor} é {quadrado_resultado}.")
+# print(f"O quadrado de {valor} é {quadrado_resultado}.")
 
 
 # ## Números de Ponto Flutuante (float)
 #   - Escreva um programa que receba dois números flutuantes e realize sua adição.
+
+valor1 = float(input("Informe um valor com ponto flutuante: "))
+valor2 = float(input("Informe outro valor com ponto flutuante: "))
+
+soma_float = valor1 + valor2
+
+print(f"A soma dos valores é {soma_float}")
+
 #   - Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
 #   - Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 #   - Faça um programa que converta a temperatura de Celsius para Fahrenheit.
