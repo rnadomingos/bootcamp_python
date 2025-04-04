@@ -1,3 +1,4 @@
+import math
 # ## Inteiros (int)
 #   - Escreva um programa que soma dois números inteiros inseridos pelo usuário.
 
@@ -76,15 +77,23 @@
 
 #   - Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 
-print("### Conversor Celsius para Farenheit ### \n")
+# print("### Conversor Celsius para Farenheit ### \n")
 
-graus = float(input("Informe a temperatura: "))
+# graus = float(input("Informe a temperatura: "))
 
-fahrenheit = (graus * 1.8) + 32
+# fahrenheit = (graus * 1.8) + 32
 
-print(f"A temperatura convertida para Fahrenheit é de: {fahrenheit}ºF")
+# print(f"A temperatura convertida para Fahrenheit é de: {fahrenheit}°F")
 
 #   - Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+print("### Calculadora de Circulo ### \n")
+
+raio = float(input("Informe um raio: "))
+
+circulo = math.pi * raio ** 2
+
+print(f"A área calculada do circulo é de: {circulo}")
+
 # ## Strings (str)
 #   - Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
 #   - Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
