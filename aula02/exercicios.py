@@ -65,17 +65,25 @@
 
 #   - Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 
-print("### Exercício Potenciação ### \n")
+# print("### Exercício Potenciação ### \n")
 
-base = float(input("Informe um valor para base: "))
-expoente = int(input("Informe outro o expoente: "))
+# base = float(input("Informe um valor para base: "))
+# expoente = int(input("Informe outro o expoente: "))
 
-potencia = base ** expoente
+# potencia = base ** expoente
 
-print(f"A potenciação de {base} elevada a {expoente} é igual a {potencia}")
-
+# print(f"A potenciação de {base} elevada a {expoente} é igual a {potencia}")
 
 #   - Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+
+print("### Conversor Celsius para Farenheit ### \n")
+
+graus = float(input("Informe a temperatura: "))
+
+fahrenheit = (graus * 1.8) + 32
+
+print(f"A temperatura convertida para Fahrenheit é de: {fahrenheit}ºF")
+
 #   - Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
 # ## Strings (str)
 #   - Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
