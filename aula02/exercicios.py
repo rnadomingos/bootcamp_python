@@ -131,17 +131,27 @@ import math
 
 # print(f"A data separada em lista é esta: {data_split} \n Ou podemos separar desta forma: Dia {dia}, do mês {mes}, do ano de {ano}.")
 #   - Escreva um programa que concatene duas strings fornecidas pelo usuário.
-print("### Concatene 2 entradas de string ###")
+# print("### Concatene 2 entradas de string ###")
 
-string1 = input("Informe uma string: ")
-string2 = input("Informe outra string: ")
+# string1 = input("Informe uma string: ")
+# string2 = input("Informe outra string: ")
 
-resultado = string1+string2
+# resultado = string1+string2
 
-print(f"As strings concatenadas, ficam desta forma: '{resultado}'.")
+# print(f"As strings concatenadas, ficam desta forma: '{resultado}'.")
 
 # ## Booleanos (bool)
 #   - Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
+print("### Resultado Booleanos AND")
+
+def string_to_bool(s):
+    return s.strip().lower() in [ 'true', 's', 'y', '1']
+
+bol1 = string_to_bool(input("Informe um booleano, no formato True ou False ou ainda 0 ou 1: "))
+bol2 = string_to_bool(input("Informe outro booleano, no formato True ou False ou ainda 0 ou : "))
+
+resultado_and = bol1 and bol2
+print("Resultado do AND lógico:", resultado_and)
 #   - Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
 #   - Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 #   - Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
