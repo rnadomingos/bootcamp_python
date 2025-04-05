@@ -119,18 +119,27 @@ import math
 
 # print(f"{frase}")
 #   - Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
-print("### Separa data ###")
+# print("### Separa data ###")
 
-data_in = input("Informe uma data no formato: dd/mm/aaaa: ")
+# data_in = input("Informe uma data no formato: dd/mm/aaaa: ")
 
-data_split = data_in.split('/')
+# data_split = data_in.split('/')
 
-dia = data_split[0]
-mes = data_split[1]
-ano = data_split[2]
+# dia = data_split[0]
+# mes = data_split[1]
+# ano = data_split[2]
 
-print(f"A data separada em lista é esta: {data_split} \n Ou podemos separar desta forma: Dia {dia}, do mês {mes}, do ano de {ano}.")
+# print(f"A data separada em lista é esta: {data_split} \n Ou podemos separar desta forma: Dia {dia}, do mês {mes}, do ano de {ano}.")
 #   - Escreva um programa que concatene duas strings fornecidas pelo usuário.
+print("### Concatene 2 entradas de string ###")
+
+string1 = input("Informe uma string: ")
+string2 = input("Informe outra string: ")
+
+resultado = string1+string2
+
+print(f"As strings concatenadas, ficam desta forma: '{resultado}'.")
+
 # ## Booleanos (bool)
 #   - Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
 #   - Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
