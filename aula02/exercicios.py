@@ -176,11 +176,18 @@ import math
 
 # print("Resultado inverso:", bol1)
 #   - Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
-print("### Comparar Valores")
+# print("### Comparar Valores iguais")
+
+# val1 = input("Informe um valor: ")
+# val2 = input("Informe outro valor: ")
+
+# resultado = val1 == val2
+# print("Resultado inverso:", resultado)
+#   - Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+print("### Comparar Valores diferentes")
 
 val1 = input("Informe um valor: ")
 val2 = input("Informe outro valor: ")
 
-resultado = val1 == val2
+resultado = val1 != val2
 print("Resultado inverso:", resultado)
-#   - Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
