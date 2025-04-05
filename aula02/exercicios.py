@@ -142,7 +142,18 @@ import math
 
 # ## Booleanos (bool)
 #   - Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
-print("### Resultado Booleanos AND")
+# print("### Resultado Booleanos AND")
+
+# def string_to_bool(s):
+#     return s.strip().lower() in [ 'true', 's', 'y', '1']
+
+# bol1 = string_to_bool(input("Informe um booleano, no formato True ou False ou ainda 0 ou 1: "))
+# bol2 = string_to_bool(input("Informe outro booleano, no formato True ou False ou ainda 0 ou : "))
+
+# resultado_and = bol1 and bol2
+# print("Resultado do AND lógico:", resultado_and)
+#   - Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+print("### Resultado Booleanos OR")
 
 def string_to_bool(s):
     return s.strip().lower() in [ 'true', 's', 'y', '1']
@@ -150,9 +161,8 @@ def string_to_bool(s):
 bol1 = string_to_bool(input("Informe um booleano, no formato True ou False ou ainda 0 ou 1: "))
 bol2 = string_to_bool(input("Informe outro booleano, no formato True ou False ou ainda 0 ou : "))
 
-resultado_and = bol1 and bol2
-print("Resultado do AND lógico:", resultado_and)
-#   - Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
+resultado_and = bol1 or bol2
+print("Resultado do OR lógico:", resultado_and)
 #   - Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
 #   - Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
 #   - Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
