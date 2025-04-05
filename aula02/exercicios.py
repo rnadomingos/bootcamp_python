@@ -112,13 +112,24 @@ import math
 # print(low)
 
 #   - Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
-print("### Remove espaços ###")
-frase = input("Insira uma frase: ")
+# print("### Remove espaços ###")
+# frase = input("Insira uma frase: ")
 
-resultado = frase.strip()
+# resultado = frase.strip()
 
-print(f"{frase}")
+# print(f"{frase}")
 #   - Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
+print("### Separa data ###")
+
+data_in = input("Informe uma data no formato: dd/mm/aaaa: ")
+
+data_split = data_in.split('/')
+
+dia = data_split[0]
+mes = data_split[1]
+ano = data_split[2]
+
+print(f"A data separada em lista é esta: {data_split} \n Ou podemos separar desta forma: Dia {dia}, do mês {mes}, do ano de {ano}.")
 #   - Escreva um programa que concatene duas strings fornecidas pelo usuário.
 # ## Booleanos (bool)
 #   - Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
