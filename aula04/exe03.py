@@ -4,6 +4,7 @@
 
 print("Criando livros!!")
 
+# livros = [{'titulo': 'clean code', 'autor': 'uncle bob', 'ano': '1998'}, {'titulo': 'o caso do 10 negrinhos', 'autor': 'agatha christie', 'ano': '1980'}]
 livros: list = []
 continua = 'y'
 
@@ -22,6 +23,6 @@ while continua == 'y':
 print("Lista impressa: ",livros)
 
 for lv in livros:
-  for l in lv:
-    print(f"O {l} é: {lv[l]}")
+  for k, v in lv.items():
+    print(f"O {k} é: {v}")
   print("-------------------------")
